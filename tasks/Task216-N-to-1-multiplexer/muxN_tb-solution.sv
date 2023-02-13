@@ -3,7 +3,7 @@ module muxN_tb;
 //Internal signals for testing
 logic y;
 logic [7:0] x;
-logic [2:0] ss; //2 bit signal
+logic [2:0] ss; //3 bit signal
 
 //Instantiate the component under test
 muxN #(.N(8)) u1(y, x, ss);
